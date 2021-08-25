@@ -1,0 +1,88 @@
+*{margin: 0px; padding: 0px;}
+#stash{
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: left;
+    transition: 0.5s ease-in-out;
+    
+}
+#stash{
+    text-decoration: none;
+}
+/* #stash:hover{
+    font-size: 230%;
+    color: rgb(255, 255, 255);
+    text-align: left;
+} */
+#stash:focus{
+    font-size: 230%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-start;
+    width: auto;
+}
+footer{
+    scale: 1.2;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+#foot{  
+   padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    margin-right: 50px;
+    padding: 10px;
+    width: 80px; height: auto;
+}
+
+.stl{
+    /* margin-left: 120px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; justify-content: center;
+}
+/* figure{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    width: 450px;height: auto;
+    padding: 50px;
+
+}  */
+
+.fx{
+    width: 450px; height: auto;
+    padding: 50px;
+    transition: 1s;
+}
+
+.fx:hover{
+    transform: scale(1.1);
+
+    
+}
