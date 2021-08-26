@@ -38,6 +38,7 @@
     width: auto;
 }
 footer{
+    display: flex;
     scale: 1.2;
     color: rgb(255, 255, 255);
     margin-left: 40px;
