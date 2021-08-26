@@ -38,8 +38,8 @@
     width: auto;
 }
 footer{
+    font-size: 120%;
     display: flex;
-    scale: 1.2;
     color: rgb(255, 255, 255);
     margin-left: 40px;
     margin-bottom: 20px;
@@ -73,7 +73,6 @@ footer{
     align-items: center; justify-content: center;
     width: 450px;height: auto;
     padding: 50px;
-
 }  */
 
 .fx{
